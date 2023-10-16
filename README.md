@@ -1,4 +1,4 @@
-# Fake-vehicles-detectiion
+# Fake-vehicles-detection
 This is the repository for the "Fake Vehicles Detection" project, developed for DataSaur 2023. The primary objective of this project is to train a model to identify fake photos of vehicles. This is crucial as people often attempt to evade technical inspections by creating forged images, using tools such as Photoshop and other editing software. In the context of this problem, we perform binary classification, where "0" represents genuine vehicle photos, and "1" represents fake photos, which can be sourced from computer screens, manipulated using Photoshop, or other similar methods.
 
 To achieve this goal, a prebuilt ResNet-50 model implemented in PyTorch was utilized. ResNet-50 is a popular choice for image classification tasks due to its deep architecture and excellent performance.
